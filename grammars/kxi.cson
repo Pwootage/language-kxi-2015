@@ -1,0 +1,47 @@
+'scopeName': 'source.kxigauge'
+'name': 'KXI 2015'
+'fileTypes': [
+  'kxi'
+]
+'patterns': [
+  {
+    'comment': 'Comments'
+    'match': '//.*$'
+    'name': 'comment.line.double-slash.kxi'
+  }
+  {
+    'comment': 'Number Constants'
+    'match': '\\b(?:(?:0x[0-9a-fA-F]+)|(?:[0-9]+))\\b'
+    'name': 'constant.numeric.kxi'
+  }
+  {
+    'comment': 'Character Constants'
+    'match': '[\\s\\b](?:\'[a-z]\')[\\s\\b]'
+    'name': 'constant.character.kxi'
+  }
+  {
+    'comment': 'Language Constants'
+    'match': '(?i)\\b(?:cin|cout|true|false|null|main|this)\\b'
+    'name': 'constant.language.kxi'
+  }
+  {
+    'comment': 'Control Keywords'
+    'match': '(?i)\\b(?:atoi|else|if|itoa|new|return|while|lock|release|spawn|block)\\b'
+    'name': 'keyword.control.pwisa'
+  }
+  {
+    'comment': 'Other Keywords'
+    'match': '(?i)\\b(?:kxi2015)\\b'
+    'name': 'keyword.other.pwisa'
+  }
+  {
+    'comment': 'Storage Modifiers'
+    'match': '(?i)\\b(?:public|private|sym|protected|unprotected)\\b'
+    'name': 'storage.modifier.pwisa'
+  }
+  {
+    'comment': 'Storage Types'
+    'match': '(?i)\\b(?:bool|char|int|class|object|string|void)\\b'
+    'name': 'storage.type.pwisa'
+  }
+]

@@ -1,0 +1,11 @@
+
+
+//This is a comment
+
+
+char c = 'v'
+int i = 123
+
+while (true) {
+
+}
