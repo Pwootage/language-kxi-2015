@@ -16,7 +16,7 @@
   }
   {
     'comment': 'Character Constants'
-    'match': '(?:\'.\')'
+    'match': '(?:(\'.\')|(\'\\\\.\'))'
     'name': 'constant.character.kxi'
   }
   {

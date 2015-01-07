@@ -4,6 +4,7 @@
 
 
 char c = 'v'
+char nl = '\n';
 int i = 123
 
 while (true) {
