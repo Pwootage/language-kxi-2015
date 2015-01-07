@@ -1,6 +1,6 @@
 {
   "name": "language-kxi-2015",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "KXI-2015 syntax hilighting (used for UVU capstone)",
   "activationCommands": {},
   "repository": "https://github.com/Pwootage/language-kxi-2015",
