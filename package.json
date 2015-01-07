@@ -1,7 +1,7 @@
 {
   "name": "language-kxi-2015",
   "main": "./lib/language-kxi-2015",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "KXI-2015 syntax hilighting (used for UVU capstone)",
   "activationCommands": {
   },
