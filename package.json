@@ -5,7 +5,7 @@
   "description": "KXI-2015 syntax hilighting (used for UVU capstone)",
   "activationCommands": {
   },
-  "repository": "https://github.com/atom/language-kxi-2015",
+  "repository": "https://github.com/Pwootage/language-kxi-2015",
   "license": "Public Domain",
   "engines": {
     "atom": ">0.50.0"
