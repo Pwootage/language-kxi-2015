@@ -9,3 +9,17 @@ int i = 123
 while (true) {
 
 }
+
+
+void main() {
+
+}
+
+class test {
+  int a;
+  int b;
+
+  char[] getStr() {
+    return ['a'];
+  }
+}
